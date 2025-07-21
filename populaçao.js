@@ -4,7 +4,6 @@ const taxaAumentoA = 0.03;
 const taxaAumentoB = 0.015;
 let anos = 0;
 
-// Loop until Population A is greater than or equal to Population B
 while (populacaoA < populacaoB) {
     populacaoA += populacaoA * taxaAumentoA;
     populacaoB += populacaoB * taxaAumentoB;
