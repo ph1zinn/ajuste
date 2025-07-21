@@ -9,11 +9,11 @@ function jogarAdivinhacao() {
     // Mensagem de boas-vindas
     console.log("-----------------------------------------");
     console.log("  Bem-vindo(a) ao Jogo de Adivinhação!   ");
-    console.log(" Tente adivinhar o número entre 1 e 100. ");
+    console.log(" Tente adivinhar o número entre 100 e 200. ");
     console.log(" Você tem no máximo 10 tentativas. "); // Informa o limite
     console.log("-----------------------------------------");
 
-    const numeroAleatorio = Math.floor(Math.random() * 100) + 1; // Gera um número entre 1 e 100
+    const numeroAleatorio = Math.floor(Math.random() * 200) + 100; // Gera um número entre 1 e 100
     let tentativas = 0; // Contador de tentativas
     const MAX_TENTATIVAS = 10; // Define o número máximo de tentativas
 
